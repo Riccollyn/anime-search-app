@@ -45,49 +45,10 @@ To run the Anime Search App locally, follow these steps:
 
 5. Open your browser and go to `http://localhost:4000` to view the application.
 
-## Project Structure
-
-anime-search-app
-├── public
-│   └── index.html
-├── src
-│   ├── main.tsx
-│   ├── App.tsx
-│   ├── index.css
-│   ├── pages
-│   │   ├── SearchPage.tsx
-│   │   └── DetailPage.tsx
-│   ├── components
-│   │   ├── Header.tsx
-│   │   ├── SearchBar.tsx
-│   │   ├── AnimeCard.tsx
-│   │   └── Pagination.tsx
-│   ├── store
-│   │   ├── index.ts
-│   │   └── slices
-│   │       └── searchSlice.ts
-│   ├── services
-│   │   └── api.ts
-│   ├── hooks
-│   │   ├── useDebouncedValue.ts
-│   │   └── useAbortableFetch.ts
-│   ├── routes
-│   │   └── AppRoutes.tsx
-│   ├── types
-│   │   └── anime.ts
-│   └── utils
-│       └── debounce.ts
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-├── .gitignore
-├── PROMPTS.md
-└── README.md
-
 
 ## Live Demo
 
-You can view the live version of the Anime Search App at: [Live Demo URL]
+You can view the live version of the Anime Search App at: https://riccollyn.github.io/anime-search-app/
 
 ## Bonus Implementation
 
