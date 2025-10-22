@@ -14,7 +14,7 @@ const root = createRoot(container);
 root.render(
     <React.StrictMode>
         <Provider store={store}>
-            <BrowserRouter>
+            <BrowserRouter basename="/anime-search-app">
                 <App />
             </BrowserRouter>
         </Provider>
